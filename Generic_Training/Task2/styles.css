@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+}
+
+header {
+    padding-top: 10px;
+    background-color: darkslategrey;
+    padding-bottom: 10px;
+    border-bottom: yellow 2px solid;
+    /* border-style: solid; */
+    /* border-color: black; */
+}
+
+header span {
+    padding: 20px;
+    color: white;
+    /* text-decoration: none; */
+}
+
+header span a {
+    text-decoration: none;
+    color: white;
+}
+
+header span a:hover {
+    color: yellow;
+}
+
+.header-title {
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: larger;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.category-box {
+    margin-top: 50px;
+    /* min-height: 200px; */
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+}
+
+.blue-bg {
+    /* background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(15px); */
+    background-color: lightblue;
+    border: 1px blue solid;
+}
+
+.green-bg {
+    background-color:lightgreen;
+    border: 1px green solid;
+}
+
+.center {
+    text-align: center;
+}
+
+#manaze-tasks table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#manaze-tasks th {
+    border: 1px black solid;
+    padding: 8px;
+}
+
+#manaze-tasks td {
+    border: 1px black solid;
+    padding: 8px;
+}
+
+.yellow-bg {
+    background-color:lightyellow;
+    border: 1px yellow solid;
+}
+
+#manaze-attendance table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#manaze-attendance th {
+    border: 1px black solid;
+    padding: 8px;
+}
+
+#manaze-attendance td {
+    border: 1px black solid;
+    padding: 8px;
+}
+
+.grey-bg {
+    background-color:lightgrey;
+    border: 1px grey solid;
+}
+
