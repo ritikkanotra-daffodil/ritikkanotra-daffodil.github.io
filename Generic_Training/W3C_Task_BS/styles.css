@@ -100,10 +100,10 @@ section {
     font-size: 24px;
 }
 
-.heading hr {
-    opacity: 0.3;
+/* .heading hr {
+    opacity: 1  ;
     height: 0.5px;
-}
+} */
 
 .projects-container div img {
     height: 215px;
@@ -149,13 +149,18 @@ section {
 }
 
 .about-card {
-    width: 322px;
+    padding: 0px 16px 0px 16px;
+    width: 24%;
     float: left;
     margin: 8px 8px 8px 0px;
+    border-radius: 0px;
 }
 
 .about-card img {
     height: 215px;
+    margin-left: -16px;
+    margin-right: -16px;
+    box-sizing: border-box;
 }
 
 .about-card .name {
@@ -169,10 +174,12 @@ section {
 }
 
 .about-card .contact-button {
-    width: 100%;
+    /* width: 100%; */
     background-color: #f1f1f1;
     padding: 8px 0px;
     text-align: center;
+    margin-left: -16px;
+    margin-right: -16px;
 }
 
 .about-card .contact-button:hover {
@@ -211,6 +218,7 @@ section {
 }
 
 footer {
+    margin-top: 8px;
     width: 100%;
     padding: 31px 0px;
     background-color: black;
@@ -230,6 +238,17 @@ footer a:hover {
     color: black;
 }
 
+/* .navbar-nav {
+    float: right;
+} */
+
+.navbar-collapse {
+    align-content: center;
+}
+
+.contact-form-bs {
+    margin-top: 30px;
+}
 
 
 
