@@ -1,0 +1,97 @@
+.left-content ul {
+    list-style: none;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    margin: 0px 0px;
+    /* margin: 8px 0px; */
+}
+
+.left-content ul li {
+    display: inline;
+    padding: 8px 16px;
+    /* margin: 8px 0px; */
+    box-sizing: border-box;
+}
+
+.left-content {
+    margin-left: 0px;
+    float: left;
+}
+
+/* .left-content::after {
+    clear: both;
+    content: "";
+} */
+
+.right-content {
+    float: right;
+    margin-right: 0px;
+    color: gray;
+}
+
+.right-content .fa-search {
+    color: gray;
+}
+
+/* .right-content::after {
+    clear: both;
+    content: "";
+} */
+
+.trans-nav {
+    /* background-color: lightgrey; */
+    /* padding-top: 8px; */
+    font-size: 15px;
+}
+
+body {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    /* color: gray; */
+    color: #777;
+}
+
+.padding-hor-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.padding-ver-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.padding-ver-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.right-content:hover {
+    background-color: red;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+header {
+    position: relative;
+   min-height: 400px;
+   background-image: url(./assets/images/parallax1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   opacity: 0.75;
+}
+
+header .center-text {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    letter-spacing: 10px;
+    padding: 12px 24px;
+    font-size: 24px;
+    color: white;
+}
