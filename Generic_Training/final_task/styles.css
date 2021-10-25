@@ -1,0 +1,316 @@
+.left-content ul {
+    list-style: none;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    margin: 0px 0px;
+    /* margin: 8px 0px; */
+}
+
+.left-content ul li {
+    display: inline;
+    padding: 8px 16px;
+    /* margin: 8px 0px; */
+    box-sizing: border-box;
+}
+
+.left-content ul li:hover {
+    background-color: lightgrey;
+}
+
+.left-content {
+    margin-left: 0px;
+    float: left;
+}
+
+/* .left-content::after {
+    clear: both;
+    content: "";
+} */
+
+.right-content {
+    float: right;
+    margin-right: 0px;
+    color: gray;
+}
+
+.right-content .fa-search {
+    color: gray;
+}
+
+/* .right-content::after {
+    clear: both;
+    content: "";
+} */
+
+.trans-nav {
+    /* background-color: lightgrey; */
+    /* padding-top: 8px; */
+    font-size: 15px;
+}
+
+body {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    /* color: gray; */
+    color: #777;
+    line-height: 1.8;
+}
+
+.padding-hor-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.padding-ver-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.padding-ver-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.right-content:hover {
+    background-color: red;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+header {
+    position: relative;
+   min-height: 400px;
+   background-image: url(./assets/images/parallax1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   opacity: 0.75;
+}
+
+header .center-text {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    letter-spacing: 10px;
+    padding: 12px 24px;
+    line-height: 1.2;
+    font-size: 24px;
+    color: white;
+}
+
+section {
+    padding: 20px 16%;
+}
+
+section .heading {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+section .sub-heading {
+    text-align: center;
+    font-style: italic;
+    margin: 15px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about .col-sm i {
+    margin-right: 16px;
+}
+
+.about-img {
+    margin-top: 32px
+}
+
+#about .row .col-sm {
+    padding: 12px 24px;
+}
+
+.skill-name {
+    letter-spacing: 10px;
+    font-size: 15px;
+}
+
+.skill-div .progress {
+    font-size: 15px;
+    margin: 16px 0px;
+    height: 34.65px;
+    border-radius: 0px;
+}
+
+.skill-div .progress-bar {
+    background-color: #616161;
+    font-family: "Lato", sans-serif;
+}
+
+footer {
+    padding: 64px 0px;
+    background-color: black;
+    opacity: 0.6;
+    text-align: center;
+    color: white;
+}
+
+.to-top {
+    padding: 8px 16px;
+    font-size: 15px;
+    background-color: #f1f1f1;
+    color: black;
+    margin: 32px 0px;
+    text-decoration: none;
+    
+}
+
+.social-media {
+    color: white;
+    margin: 32px 0px;
+}
+
+.social-media i {
+    display: inline;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+footer a:hover {
+    color: green;
+}
+
+.to-top:hover {
+    color: black;
+    background-color: lightgrey;
+    text-decoration: none;
+}
+
+.social-media i:hover {
+    color: lightgrey;
+}
+
+.portfolio-img {
+    background-image: url(./assets/images/parallax2.jpg);
+}
+
+.section-heading {
+    position: relative;
+    min-height: 400px;
+    opacity: 0.75;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 36px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-img {
+    background-image: url(./assets/images/parallax3.jpg);
+}
+
+.map-img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#contact form button   {
+    width: calc(100%);
+}
+
+#contact form input {
+    padding: 8px;
+    line-height: 1.7px;
+    margin: 8px;;
+}
+
+#contact form button {
+    padding: 12px 8px;
+    line-height: 1.7px;
+    margin: 8px;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+#contact form button:hover {
+    background-color:lightgrey;
+    color: black;
+}
+
+.contact-item i {
+    margin-right: 16px;
+}
+
+.contact-item {
+    font-size: 18px;
+}
+
+.stats {
+    padding: 16px 0px;
+    margin: 0px;
+    background-color: #616161;
+}
+
+.stats .col-sm {
+    padding: 16px 0px;
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: 23%;
+    height: fit-content;
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.project-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.my-button {
+    padding: 12px 24px;
+    background-color: #f1f1f1;
+    color: black;
+    width: fit-content;
+}
+
+.my-button:hover {
+    background-color: lightgrey;
+    text-decoration: none;
+}
+
+.project-load-more {
+    margin: 64px 0px;
+}
+
+
+
+
