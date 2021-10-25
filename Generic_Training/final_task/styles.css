@@ -104,6 +104,7 @@ header .center-text {
 
 section {
     padding: 20px 16%;
+    margin: 64px 0px
 }
 
 section .heading {
@@ -308,7 +309,7 @@ footer a:hover {
 }
 
 .project-load-more {
-    margin: 64px 0px;
+    margin-top: 64px;
 }
 
 
